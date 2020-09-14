@@ -44,6 +44,7 @@ Find the file `index.js` and complete the tasks until your tests are passing.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+  A closure is created when you make a function and lets you access an outer scopes function scope from an inner function.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -65,8 +66,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+  At the end because thats where the function personalDice is closed.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+  "Dan rolled a " is always the same but the number with change
 c. What is the lexical scope of `newRoll`? 
+  The lexical scope for 'newRoll' is the return function.
 
 ### Task 3 - Stretch Goals
 
